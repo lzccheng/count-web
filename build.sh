@@ -1,4 +1,6 @@
+yarn
+echo '===== install modules done ====='
 yarn build
-echo 'build finished ========'
+echo '===== build done ====='
 cp -rf ./dist/* /var/www/html/
-echo 'copy finished ======='
+echo '===== copy finished ====='
